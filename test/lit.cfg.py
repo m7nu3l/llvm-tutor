@@ -23,15 +23,10 @@ config.test_format = lit.formats.ShTest(not llvm_config.use_lit_shell)
 
 # suffixes: A list of file extensions to treat as test files. This is overriden
 # by individual lit.local.cfg files in the test subdirectories.
-config.suffixes = ['.ll']
+config.suffixes = ['.ll', ".c"]
 
 # test_source_root: The root path where tests are located.
 config.test_source_root = os.path.dirname(__file__)
-
-# excludes: A list of directories to exclude from the testsuite. The 'Inputs'
-# subdirectories contain auxiliary inputs for various tests in their parent
-# directories.
-config.excludes = ['Inputs']
 
 # On Mac OS, 'clang' installed via HomeBrew (or build from sources) won't know
 # where to look for standard headers (e.g. 'stdlib.h'). This is a workaround.

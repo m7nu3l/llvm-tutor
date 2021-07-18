@@ -1,43 +1,17 @@
 # THE LIST OF PLUGINS AND THE CORRESPONDING SOURCE FILES
 # ======================================================
 set(LLVM_TUTOR_PLUGINS
-    StaticCallCounter
-    DynamicCallCounter
-    FindFCmpEq
-    ConvertFCmpEq
-    InjectFuncCall
-    MBAAdd
-    MBASub
-    RIV
-    DuplicateBB
-    OpcodeCounter
-    MergeBB
+    Histogram
+    Profiler
+    ProfilerRuntime
     )
 
-set(StaticCallCounter_SOURCES
-  StaticCallCounter.cpp)
-set(DynamicCallCounter_SOURCES
-  DynamicCallCounter.cpp)
-set(FindFCmpEq_SOURCES
-  FindFCmpEq.cpp)
-set(ConvertFCmpEq_SOURCES
-  ConvertFCmpEq.cpp)
-set(InjectFuncCall_SOURCES
-  InjectFuncCall.cpp)
-set(MBAAdd_SOURCES
-  MBAAdd.cpp
-  Ratio.cpp)
-set(MBASub_SOURCES
-  MBASub.cpp
-  Ratio.cpp)
-set(RIV_SOURCES
-  RIV.cpp)
-set(DuplicateBB_SOURCES
-  DuplicateBB.cpp)
-set(OpcodeCounter_SOURCES
-  OpcodeCounter.cpp)
-set(MergeBB_SOURCES
-  MergeBB.cpp)
+set(Histogram_SOURCES
+  Histogram.cpp)
+set(Profiler_SOURCES
+  Profiler.cpp)
+set(ProfilerRuntime_SOURCES
+  ProfilerRuntime.cpp)
 
 # CONFIGURE THE PLUGIN LIBRARIES
 # ==============================
