@@ -112,3 +112,4 @@ Limitations/Future work
 * Histogram pass's output file should have extra columns to identify each basic block's size (function & module).
 * Profiler pass is duplicating constants strings rather than re-using them.
 * Is `bb_exec` GV correctly initialized to `nullptr` if it is not linked? So far, it looks like yes.  
+* Improve at which point of the optimisation pipeline Histogram and Profiler passes are registered in clang.
