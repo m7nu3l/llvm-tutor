@@ -61,7 +61,7 @@ The pass entry point is [lib/Histogram.cpp::runOnFunction](https://github.com/m7
 
 Single-file program test is [test/Histogram-test.ll](https://github.com/m7nu3l/llvm-tutor/blob/main/test/Histogram-test.ll).
 
-#### Source-code project test
+#### Open source project test
 
 Source-code project test is [here](https://github.com/m7nu3l/llvm-tutor/blob/main/Dockerfile#L98).
 The [zip project](https://github.com/kuba--/zip) is analyzed by the Histogram pass. Output files are in [/repo/histogram-sample](https://github.com/m7nu3l/llvm-tutor/tree/main/histogram-sample). 
@@ -91,7 +91,7 @@ The pass entry point is [lib/Profiler.cpp::runOnFunction](https://github.com/m7n
 
 Single-file program test is [test/Profiler-test-1.c](https://github.com/m7nu3l/llvm-tutor/blob/main/test/Profiler-test-1.c).
 
-#### Source-code project test
+#### Open source project test
 
 Source-code project test is [here](https://github.com/m7nu3l/llvm-tutor/blob/main/Dockerfile#L88).
 The [zip project](https://github.com/kuba--/zip) is transformed by the Profiler pass. An example of the output can be found [here](https://github.com/m7nu3l/llvm-tutor/runs/3099304204#step:3:2832)
